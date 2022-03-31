@@ -1,0 +1,58 @@
+[31Mar2022 17:03:42.092] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--username, VoidConstruct, --version, 1.18.2-forge-40.0.34, --gameDir, C:\Users\User\AppData\Roaming\.minecraft, --assetsDir, C:\Users\User\AppData\Roaming\.minecraft\assets, --assetIndex, 1.18, --uuid, ce0459dfd8514c66bd2b9c8166a2ea00, --accessToken, ????????, --clientId, NGE1OWM1NDUtZmNkYy00MGZlLWJmZTYtM2U3YjkxMjI2OWU0, --xuid, 2535469575713033, --userType, msa, --versionType, release, --launchTarget, forgeclient, --fml.forgeVersion, 40.0.34, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220228.144236]
+[31Mar2022 17:03:42.101] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 17.0.1 by Microsoft
+[31Mar2022 17:03:43.261] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/User/AppData/Roaming/.minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2314!/ Service=ModLauncher Env=CLIENT
+[31Mar2022 17:03:44.126] [main/ERROR] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Missing mandatory dependencies: yungsapi, cloth_config, placebo, placebo, selene, caelus, placebo, minecraft, terrablender
+[31Mar2022 17:03:44.127] [main/ERROR] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Unsupported installed optional dependencies: jei
+[31Mar2022 17:03:46.132] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[31Mar2022 17:03:46.269] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclient' with arguments [--version, 1.18.2-forge-40.0.34, --gameDir, C:\Users\User\AppData\Roaming\.minecraft, --assetsDir, C:\Users\User\AppData\Roaming\.minecraft\assets, --uuid, ce0459dfd8514c66bd2b9c8166a2ea00, --username, VoidConstruct, --assetIndex, 1.18, --accessToken, ????????, --clientId, NGE1OWM1NDUtZmNkYy00MGZlLWJmZTYtM2U3YjkxMjI2OWU0, --xuid, 2535469575713033, --userType, msa, --versionType, release]
+[31Mar2022 17:03:46.665] [main/WARN] [mixin/]: Error loading class: net/minecraft/world/level/levelgen/StructureSettings (java.lang.ClassNotFoundException: net.minecraft.world.level.levelgen.StructureSettings)
+[31Mar2022 17:03:46.665] [main/WARN] [mixin/]: @Mixin target net.minecraft.world.level.levelgen.StructureSettings was not found bettermineshafts.mixins.json:StructureSettingsAccessor
+[31Mar2022 17:03:47.175] [main/WARN] [mixin/]: Error loading class: net/minecraftforge/common/Tags$IOptionalNamedTag (java.lang.ClassNotFoundException: net.minecraftforge.common.Tags$IOptionalNamedTag)
+[31Mar2022 17:03:47.181] [main/WARN] [mixin/]: Error loading class: net/minecraftforge/common/Tags$IOptionalNamedTag (java.lang.ClassNotFoundException: net.minecraftforge.common.Tags$IOptionalNamedTag)
+[31Mar2022 17:03:47.181] [main/WARN] [mixin/]: Error loading class: net/minecraftforge/common/Tags$IOptionalNamedTag (java.lang.ClassNotFoundException: net.minecraftforge.common.Tags$IOptionalNamedTag)
+[31Mar2022 17:03:47.185] [main/WARN] [mixin/]: Error loading class: net/minecraftforge/common/Tags$IOptionalNamedTag (java.lang.ClassNotFoundException: net.minecraftforge.common.Tags$IOptionalNamedTag)
+[31Mar2022 17:03:48.492] [pool-3-thread-1/FATAL] [mixin/]: Mixin apply failed bettermineshafts.mixins.json:ChunkGeneratorAccessor -> net.minecraft.world.level.chunk.ChunkGenerator: org.spongepowered.asm.mixin.gen.throwables.InvalidAccessorException No candidates were found matching f_62139_:Lnet/minecraft/world/level/levelgen/StructureSettings; in net/minecraft/world/level/chunk/ChunkGenerator for bettermineshafts.mixins.json:ChunkGeneratorAccessor->@Accessor[FIELD_SETTER]::setSettings(Lnet/minecraft/world/level/levelgen/StructureSettings;)V [INJECT Applicator Phase -> bettermineshafts.mixins.json:ChunkGeneratorAccessor -> Apply Accessors ->  -> Locate -> bettermineshafts.mixins.json:ChunkGeneratorAccessor->@Accessor[FIELD_SETTER]::setSettings(Lnet/minecraft/world/level/levelgen/StructureSettings;)V]
+org.spongepowered.asm.mixin.gen.throwables.InvalidAccessorException: No candidates were found matching f_62139_:Lnet/minecraft/world/level/levelgen/StructureSettings; in net/minecraft/world/level/chunk/ChunkGenerator for bettermineshafts.mixins.json:ChunkGeneratorAccessor->@Accessor[FIELD_SETTER]::setSettings(Lnet/minecraft/world/level/levelgen/StructureSettings;)V [INJECT Applicator Phase -> bettermineshafts.mixins.json:ChunkGeneratorAccessor -> Apply Accessors ->  -> Locate -> bettermineshafts.mixins.json:ChunkGeneratorAccessor->@Accessor[FIELD_SETTER]::setSettings(Lnet/minecraft/world/level/levelgen/StructureSettings;)V]
+	at org.spongepowered.asm.mixin.gen.AccessorInfo.findTarget(AccessorInfo.java:518) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.gen.AccessorInfo.findTargetField(AccessorInfo.java:501) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.gen.AccessorInfo.locate(AccessorInfo.java:475) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinTargetContext.generateAccessors(MixinTargetContext.java:1389) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyAccessors(MixinApplicatorStandard.java:1060) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:398) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:325) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:383) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:365) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156) ~[modlauncher-9.1.3.jar:9.1.3+9.1.3+main.9b69c82a]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-9.1.3.jar:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-9.1.3.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-9.1.3.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:110) ~[securejarhandler-1.0.3.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$16(ModuleClassLoader.java:216) ~[securejarhandler-1.0.3.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:226) ~[securejarhandler-1.0.3.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:216) ~[securejarhandler-1.0.3.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:132) ~[securejarhandler-1.0.3.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
+	at net.minecraft.world.level.levelgen.VerticalAnchor$Absolute.<clinit>(VerticalAnchor.java:59) ~[client-1.18.2-20220228.144236-srg.jar%23109!/:?]
+	at net.minecraft.world.level.levelgen.VerticalAnchor.<clinit>(VerticalAnchor.java:11) ~[client-1.18.2-20220228.144236-srg.jar%23109!/:?]
+	at net.minecraft.world.level.levelgen.heightproviders.HeightProvider.<clinit>(HeightProvider.java:12) ~[client-1.18.2-20220228.144236-srg.jar%23109!/:?]
+	at net.minecraft.world.level.levelgen.carver.CarverConfiguration.m_190634_(CarverConfiguration.java:13) ~[client-1.18.2-20220228.144236-srg.jar%23109!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder.mapCodec(RecordCodecBuilder.java:76) ~[datafixerupper-4.1.27.jar%2333!/:?]
+	at net.minecraft.world.level.levelgen.carver.CarverConfiguration.<clinit>(CarverConfiguration.java:12) ~[client-1.18.2-20220228.144236-srg.jar%23109!/:?]
+	at net.minecraft.world.level.levelgen.carver.WorldCarver.<clinit>(WorldCarver.java:30) ~[client-1.18.2-20220228.144236-srg.jar%23109!/:?]
+	at net.minecraft.data.worldgen.Carvers.<clinit>(Carvers.java:19) ~[client-1.18.2-20220228.144236-srg.jar%23109!/:?]
+	at net.minecraft.data.BuiltinRegistries.m_206400_(BuiltinRegistries.java:45) ~[client-1.18.2-20220228.144236-srg.jar%23109!/:?]
+	at net.minecraft.data.BuiltinRegistries.m_206392_(BuiltinRegistries.java:101) ~[client-1.18.2-20220228.144236-srg.jar%23109!/:?]
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:721) ~[?:?]
+	at net.minecraft.data.BuiltinRegistries.<clinit>(BuiltinRegistries.java:100) ~[client-1.18.2-20220228.144236-srg.jar%23109!/:?]
+	at net.minecraft.core.Registry.<clinit>(Registry.java:633) ~[client-1.18.2-20220228.144236-srg.jar%23109!/:?]
+	at net.minecraft.server.Bootstrap.m_135870_(Bootstrap.java:44) ~[client-1.18.2-20220228.144236-srg.jar%23109!/:?]
+	at net.minecraft.client.main.Main.lambda$main$0(Main.java:138) ~[client-1.18.2-20220228.144236-srg.jar%23109!/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]

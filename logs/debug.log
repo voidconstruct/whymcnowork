@@ -1,0 +1,884 @@
+[31Mar2022 17:03:42.092] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--username, VoidConstruct, --version, 1.18.2-forge-40.0.34, --gameDir, C:\Users\User\AppData\Roaming\.minecraft, --assetsDir, C:\Users\User\AppData\Roaming\.minecraft\assets, --assetIndex, 1.18, --uuid, ce0459dfd8514c66bd2b9c8166a2ea00, --accessToken, ????????, --clientId, NGE1OWM1NDUtZmNkYy00MGZlLWJmZTYtM2U3YjkxMjI2OWU0, --xuid, 2535469575713033, --userType, msa, --versionType, release, --launchTarget, forgeclient, --fml.forgeVersion, 40.0.34, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220228.144236]
+[31Mar2022 17:03:42.101] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 17.0.1 by Microsoft
+[31Mar2022 17:03:42.116] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [fmlclientdev,forgeclient,minecraft,forgegametestserverdev,fmlserveruserdev,fmlclient,fmldatauserdev,forgeserverdev,forgeserveruserdev,forgeclientdev,forgeclientuserdev,forgeserver,forgedatadev,fmlserver,fmlclientuserdev,fmlserverdev,forgedatauserdev,testharness,forgegametestserveruserdev]
+[31Mar2022 17:03:42.127] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : [srgtomcp]
+[31Mar2022 17:03:42.138] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,eventbus,slf4jfixer,object_holder_definalize,runtime_enum_extender,capability_token_subclass,accesstransformer,runtimedistcleaner]
+[31Mar2022 17:03:42.149] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[31Mar2022 17:03:43.185] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: java.util.stream.ReferencePipeline$3@757d6814
+[31Mar2022 17:03:43.197] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [mixin,fml]
+[31Mar2022 17:03:43.197] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[31Mar2022 17:03:43.198] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
+[31Mar2022 17:03:43.198] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
+[31Mar2022 17:03:43.198] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[31Mar2022 17:03:43.202] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 1.0
+[31Mar2022 17:03:43.202] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML 1.0 loading
+[31Mar2022 17:03:43.202] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 9.1.3+9.1.3+main.9b69c82a
+[31Mar2022 17:03:43.203] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 8.0.4+66+master.c09db6d7
+[31Mar2022 17:03:43.203] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found EventBus version : 5.0.3+70+master.d7d405b
+[31Mar2022 17:03:43.203] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
+[31Mar2022 17:03:43.205] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 5.0.1+15+master.dc5a2922
+[31Mar2022 17:03:43.205] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package implementation version 4.0.10+24+master.876d7985
+[31Mar2022 17:03:43.206] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package specification 4
+[31Mar2022 17:03:43.209] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[31Mar2022 17:03:43.210] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[31Mar2022 17:03:43.217] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[31Mar2022 17:03:43.218] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
+[31Mar2022 17:03:43.239] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in cpw.mods.cl.ModuleClassLoader@39529185
+[31Mar2022 17:03:43.261] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/User/AppData/Roaming/.minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2314!/ Service=ModLauncher Env=CLIENT
+[31Mar2022 17:03:43.269] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[31Mar2022 17:03:43.269] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[31Mar2022 17:03:43.270] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[31Mar2022 17:03:43.271] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[31Mar2022 17:03:43.272] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[31Mar2022 17:03:43.272] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[31Mar2022 17:03:43.275] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
+[31Mar2022 17:03:43.276] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[31Mar2022 17:03:43.276] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[31Mar2022 17:03:43.277] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing GAMEDIR directory : C:\Users\User\AppData\Roaming\.minecraft
+[31Mar2022 17:03:43.278] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is C:\Users\User\AppData\Roaming\.minecraft
+[31Mar2022 17:03:43.278] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing MODSDIR directory : C:\Users\User\AppData\Roaming\.minecraft\mods
+[31Mar2022 17:03:43.278] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is C:\Users\User\AppData\Roaming\.minecraft\mods
+[31Mar2022 17:03:43.278] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing CONFIGDIR directory : C:\Users\User\AppData\Roaming\.minecraft\config
+[31Mar2022 17:03:43.278] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is C:\Users\User\AppData\Roaming\.minecraft\config
+[31Mar2022 17:03:43.279] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is C:\Users\User\AppData\Roaming\.minecraft\config\fml.toml
+[31Mar2022 17:03:43.279] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[31Mar2022 17:03:43.324] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing default config directory directory : C:\Users\User\AppData\Roaming\.minecraft\defaultconfigs
+[31Mar2022 17:03:43.324] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing ModFile
+[31Mar2022 17:03:43.327] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[31Mar2022 17:03:43.327] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Using forgeclient as launch service
+[31Mar2022 17:03:43.347] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Received command line version data  : VersionInfo[forgeVersion=40.0.34, mcVersion=1.18.2, mcpVersion=20220228.144236, forgeGroup=net.minecraftforge]
+[31Mar2022 17:03:43.350] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[31Mar2022 17:03:43.350] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'srg'
+[31Mar2022 17:03:43.351] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {}
+[31Mar2022 17:03:43.351] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[31Mar2022 17:03:43.353] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
+[31Mar2022 17:03:43.353] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
+[31Mar2022 17:03:43.353] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[31Mar2022 17:03:43.353] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[31Mar2022 17:03:43.365] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
+[31Mar2022 17:03:43.367] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null),(userdev classpath:null)
+[31Mar2022 17:03:43.932] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\AI-Improvements-1.18-0.4.0.jar
+[31Mar2022 17:03:43.990] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file AI-Improvements-1.18-0.4.0.jar with {aiimprovements} mods - versions {0.4.0}
+[31Mar2022 17:03:43.993] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\AI-Improvements-1.18-0.4.0.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[38,)]]
+[31Mar2022 17:03:43.994] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\appleskin-forge-mc1.18-2.4.0.jar
+[31Mar2022 17:03:43.996] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file appleskin-forge-mc1.18-2.4.0.jar with {appleskin} mods - versions {2.4.0+mc1.18}
+[31Mar2022 17:03:43.997] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\appleskin-forge-mc1.18-2.4.0.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[37,)]]
+[31Mar2022 17:03:43.997] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\balm-3.0.2+0.jar
+[31Mar2022 17:03:43.998] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file balm-3.0.2+0.jar with {balm} mods - versions {3.0.2+0}
+[31Mar2022 17:03:43.998] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\balm-3.0.2+0.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[31Mar2022 17:03:43.998] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\BetterAdvancements-1.18.2-0.1.2.125.jar
+[31Mar2022 17:03:43.999] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file BetterAdvancements-1.18.2-0.1.2.125.jar with {betteradvancements} mods - versions {0.1.2.125}
+[31Mar2022 17:03:43.999] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\BetterAdvancements-1.18.2-0.1.2.125.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[39,)]]
+[31Mar2022 17:03:43.999] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\BetterF3-1.2.4-Forge-1.18.2.jar
+[31Mar2022 17:03:44.001] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file BetterF3-1.2.4-Forge-1.18.2.jar with {betterf3} mods - versions {1.2.4}
+[31Mar2022 17:03:44.001] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\BetterF3-1.2.4-Forge-1.18.2.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[31Mar2022 17:03:44.001] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\BetterMineshafts-Forge-1.18.1-1.0.jar
+[31Mar2022 17:03:44.002] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file BetterMineshafts-Forge-1.18.1-1.0.jar with {bettermineshafts} mods - versions {1.18.1-1.0}
+[31Mar2022 17:03:44.003] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\BetterMineshafts-Forge-1.18.1-1.0.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[39,)]]
+[31Mar2022 17:03:44.003] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\BiomesOPlenty-1.18.1-15.0.0.104-universal.jar
+[31Mar2022 17:03:44.004] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file BiomesOPlenty-1.18.1-15.0.0.104-universal.jar with {biomesoplenty} mods - versions {1.18.1-15.0.0.104}
+[31Mar2022 17:03:44.005] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\BiomesOPlenty-1.18.1-15.0.0.104-universal.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[39,)]]
+[31Mar2022 17:03:44.005] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\carryon-1.18.2-1.17.0.8.jar
+[31Mar2022 17:03:44.006] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file carryon-1.18.2-1.17.0.8.jar with {carryon} mods - versions {1.17.0.8}
+[31Mar2022 17:03:44.006] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\carryon-1.18.2-1.17.0.8.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[31Mar2022 17:03:44.006] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\cfm-7.0.0-pre29-1.18.2.jar
+[31Mar2022 17:03:44.007] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file cfm-7.0.0-pre29-1.18.2.jar with {cfm} mods - versions {7.0.0-pre29}
+[31Mar2022 17:03:44.008] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\cfm-7.0.0-pre29-1.18.2.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[39,)]]
+[31Mar2022 17:03:44.008] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\ChiselsBits-forge-1.18.2-1.2.83-universal.jar
+[31Mar2022 17:03:44.009] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file ChiselsBits-forge-1.18.2-1.2.83-universal.jar with {chiselsandbits} mods - versions {1.2.83}
+[31Mar2022 17:03:44.009] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\ChiselsBits-forge-1.18.2-1.2.83-universal.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[28,)]]
+[31Mar2022 17:03:44.009] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\clienttweaks-forge-1.18.1-7.1.0.jar
+[31Mar2022 17:03:44.010] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file clienttweaks-forge-1.18.1-7.1.0.jar with {clienttweaks} mods - versions {7.1.0}
+[31Mar2022 17:03:44.010] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\clienttweaks-forge-1.18.1-7.1.0.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[38,)]]
+[31Mar2022 17:03:44.010] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\Clumps-forge-1.18.2-8.0.0+7.jar
+[31Mar2022 17:03:44.011] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Clumps-forge-1.18.2-8.0.0+7.jar with {clumps} mods - versions {8.0.0+7}
+[31Mar2022 17:03:44.012] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\Clumps-forge-1.18.2-8.0.0+7.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[31Mar2022 17:03:44.012] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\comforts-forge-1.18.2-5.0.0.4.jar
+[31Mar2022 17:03:44.013] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file comforts-forge-1.18.2-5.0.0.4.jar with {comforts} mods - versions {1.18.2-5.0.0.4}
+[31Mar2022 17:03:44.013] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\comforts-forge-1.18.2-5.0.0.4.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[38,)]]
+[31Mar2022 17:03:44.013] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\create-mc1.18.1_v0.4f.jar
+[31Mar2022 17:03:44.014] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file create-mc1.18.1_v0.4f.jar with {create} mods - versions {0.4f}
+[31Mar2022 17:03:44.014] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\create-mc1.18.1_v0.4f.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[38,)]]
+[31Mar2022 17:03:44.014] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\Cucumber-1.18.2-5.1.0.jar
+[31Mar2022 17:03:44.016] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Cucumber-1.18.2-5.1.0.jar with {cucumber} mods - versions {5.1.0}
+[31Mar2022 17:03:44.016] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\Cucumber-1.18.2-5.1.0.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[31Mar2022 17:03:44.016] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\curios-forge-1.18.2-5.0.6.3.jar
+[31Mar2022 17:03:44.017] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file curios-forge-1.18.2-5.0.6.3.jar with {curios} mods - versions {1.18.2-5.0.6.3}
+[31Mar2022 17:03:44.017] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\curios-forge-1.18.2-5.0.6.3.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[31Mar2022 17:03:44.017] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\curiouselytra-forge-1.18.1-5.0.1.0.jar
+[31Mar2022 17:03:44.018] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file curiouselytra-forge-1.18.1-5.0.1.0.jar with {curiouselytra} mods - versions {1.18.1-5.0.1.0}
+[31Mar2022 17:03:44.018] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\curiouselytra-forge-1.18.1-5.0.1.0.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[38,)]]
+[31Mar2022 17:03:44.019] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\Cyclic-1.18.2-1.6.18.jar
+[31Mar2022 17:03:44.020] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Cyclic-1.18.2-1.6.18.jar with {cyclic} mods - versions {1.18.2-1.6.18}
+[31Mar2022 17:03:44.020] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\Cyclic-1.18.2-1.6.18.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[26,)]]
+[31Mar2022 17:03:44.020] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\Decorative+Blocks-forge-1.18.2-2.1.0.jar
+[31Mar2022 17:03:44.021] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Decorative+Blocks-forge-1.18.2-2.1.0.jar with {decorative_blocks} mods - versions {2.1.0}
+[31Mar2022 17:03:44.021] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\Decorative+Blocks-forge-1.18.2-2.1.0.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[38,)]]
+[31Mar2022 17:03:44.021] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\DungeonCrawl-1.18.2-2.3.7.jar
+[31Mar2022 17:03:44.022] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file DungeonCrawl-1.18.2-2.3.7.jar with {dungeoncrawl} mods - versions {2.3.7}
+[31Mar2022 17:03:44.022] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\DungeonCrawl-1.18.2-2.3.7.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[31Mar2022 17:03:44.022] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\FastFurnace-1.18.2-6.0.3.jar
+[31Mar2022 17:03:44.023] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file FastFurnace-1.18.2-6.0.3.jar with {fastfurnace} mods - versions {6.0.3}
+[31Mar2022 17:03:44.023] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\FastFurnace-1.18.2-6.0.3.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[32,)]]
+[31Mar2022 17:03:44.024] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\FastLeafDecay-28.jar
+[31Mar2022 17:03:44.025] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file FastLeafDecay-28.jar with {fastleafdecay} mods - versions {28}
+[31Mar2022 17:03:44.025] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\FastLeafDecay-28.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[31Mar2022 17:03:44.025] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\FastWorkbench-1.18.2-6.0.2.jar
+[31Mar2022 17:03:44.026] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file FastWorkbench-1.18.2-6.0.2.jar with {fastbench} mods - versions {6.0.2}
+[31Mar2022 17:03:44.026] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\FastWorkbench-1.18.2-6.0.2.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[32,)]]
+[31Mar2022 17:03:44.026] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\ferritecore-4.2.0-forge.jar
+[31Mar2022 17:03:44.027] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file ferritecore-4.2.0-forge.jar with {ferritecore} mods - versions {4.2.0}
+[31Mar2022 17:03:44.027] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\ferritecore-4.2.0-forge.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[28,)]]
+[31Mar2022 17:03:44.027] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\flywheel-forge-1.18-0.6.1.jar
+[31Mar2022 17:03:44.028] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file flywheel-forge-1.18-0.6.1.jar with {flywheel} mods - versions {1.18-0.6.1.63}
+[31Mar2022 17:03:44.028] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\flywheel-forge-1.18-0.6.1.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[38,)]]
+[31Mar2022 17:03:44.028] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\gravestone-1.18.2-1.0.1.jar
+[31Mar2022 17:03:44.029] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file gravestone-1.18.2-1.0.1.jar with {gravestone} mods - versions {1.18.2-1.0.1}
+[31Mar2022 17:03:44.029] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\gravestone-1.18.2-1.0.1.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[31Mar2022 17:03:44.029] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\guardvillagers-1.18.2.1.4.1.jar
+[31Mar2022 17:03:44.030] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file guardvillagers-1.18.2.1.4.1.jar with {guardvillagers} mods - versions {1.4.1}
+[31Mar2022 17:03:44.030] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\guardvillagers-1.18.2.1.4.1.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[39,)]]
+[31Mar2022 17:03:44.031] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\ImmersiveEngineering-1.18.2-8.0.0-146.jar
+[31Mar2022 17:03:44.031] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file ImmersiveEngineering-1.18.2-8.0.0-146.jar with {immersiveengineering} mods - versions {1.18.2-8.0.0-146}
+[31Mar2022 17:03:44.032] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\ImmersiveEngineering-1.18.2-8.0.0-146.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[25,)]]
+[31Mar2022 17:03:44.032] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\InventoryHud_[1.18].forge-3.4.4.jar
+[31Mar2022 17:03:44.033] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file InventoryHud_[1.18].forge-3.4.4.jar with {inventoryhud} mods - versions {3.4.4}
+[31Mar2022 17:03:44.033] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\InventoryHud_[1.18].forge-3.4.4.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[38,)]]
+[31Mar2022 17:03:44.033] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\ironchest-1.18-13.0.7.jar
+[31Mar2022 17:03:44.034] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file ironchest-1.18-13.0.7.jar with {ironchest} mods - versions {1.18-13.0.7}
+[31Mar2022 17:03:44.035] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\ironchest-1.18-13.0.7.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[38,)]]
+[31Mar2022 17:03:44.035] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\Jade-1.18.1-4.4.1.jar
+[31Mar2022 17:03:44.035] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Jade-1.18.1-4.4.1.jar with {jade,waila} mods - versions {4.4.1,4.4.1}
+[31Mar2022 17:03:44.035] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\Jade-1.18.1-4.4.1.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[38,)]]
+[31Mar2022 17:03:44.036] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\jei-1.18.1-9.4.1.172.jar
+[31Mar2022 17:03:44.037] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file jei-1.18.1-9.4.1.172.jar with {jei} mods - versions {9.4.1.172}
+[31Mar2022 17:03:44.037] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\jei-1.18.1-9.4.1.172.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[39,)]]
+[31Mar2022 17:03:44.037] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\JustEnoughProfessions-1.18.2-1.2.2.jar
+[31Mar2022 17:03:44.038] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file JustEnoughProfessions-1.18.2-1.2.2.jar with {justenoughprofessions} mods - versions {1.2.2}
+[31Mar2022 17:03:44.038] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\JustEnoughProfessions-1.18.2-1.2.2.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[31Mar2022 17:03:44.038] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\JustEnoughResources-1.18.1-0.13.1.141.jar
+[31Mar2022 17:03:44.039] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file JustEnoughResources-1.18.1-0.13.1.141.jar with {jeresources} mods - versions {0.13.1.141}
+[31Mar2022 17:03:44.040] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\JustEnoughResources-1.18.1-0.13.1.141.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[39,)]]
+[31Mar2022 17:03:44.040] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\kleeslabs-forge-1.18.1-11.1.0.jar
+[31Mar2022 17:03:44.041] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file kleeslabs-forge-1.18.1-11.1.0.jar with {kleeslabs} mods - versions {11.1.0}
+[31Mar2022 17:03:44.041] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\kleeslabs-forge-1.18.1-11.1.0.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[38,)]]
+[31Mar2022 17:03:44.041] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\mcw-bridges-2.0.2-mc1.18.2.jar
+[31Mar2022 17:03:44.041] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file mcw-bridges-2.0.2-mc1.18.2.jar with {mcwbridges} mods - versions {2.0.2}
+[31Mar2022 17:03:44.041] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\mcw-bridges-2.0.2-mc1.18.2.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[28,)]]
+[31Mar2022 17:03:44.042] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\mcw-doors-1.0.6-mc1.18.2.jar
+[31Mar2022 17:03:44.042] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file mcw-doors-1.0.6-mc1.18.2.jar with {mcwdoors} mods - versions {1.0.6}
+[31Mar2022 17:03:44.042] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\mcw-doors-1.0.6-mc1.18.2.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[28,)]]
+[31Mar2022 17:03:44.042] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\mcw-fences-1.0.3-mc1.18.2.jar
+[31Mar2022 17:03:44.043] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file mcw-fences-1.0.3-mc1.18.2.jar with {mcwfences} mods - versions {1.0.3}
+[31Mar2022 17:03:44.043] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\mcw-fences-1.0.3-mc1.18.2.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[28,)]]
+[31Mar2022 17:03:44.043] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\mcw-trapdoors-1.0.5-mc1.18.2.jar
+[31Mar2022 17:03:44.044] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file mcw-trapdoors-1.0.5-mc1.18.2.jar with {mcwtrpdoors} mods - versions {1.0.5}
+[31Mar2022 17:03:44.044] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\mcw-trapdoors-1.0.5-mc1.18.2.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[28,)]]
+[31Mar2022 17:03:44.044] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\mcw-windows-2.0.3-mc1.18.2.jar
+[31Mar2022 17:03:44.045] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file mcw-windows-2.0.3-mc1.18.2.jar with {mcwwindows} mods - versions {2.0.3}
+[31Mar2022 17:03:44.045] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\mcw-windows-2.0.3-mc1.18.2.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[28,)]]
+[31Mar2022 17:03:44.045] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\morevillagers-FORGE-1.18.2-3.2.0.jar
+[31Mar2022 17:03:44.046] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file morevillagers-FORGE-1.18.2-3.2.0.jar with {morevillagers} mods - versions {3.2.0}
+[31Mar2022 17:03:44.046] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\morevillagers-FORGE-1.18.2-3.2.0.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[31Mar2022 17:03:44.046] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\MysticalAgriculture-1.18.2-5.1.0.jar
+[31Mar2022 17:03:44.047] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file MysticalAgriculture-1.18.2-5.1.0.jar with {mysticalagriculture} mods - versions {5.1.0}
+[31Mar2022 17:03:44.047] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\MysticalAgriculture-1.18.2-5.1.0.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[31Mar2022 17:03:44.047] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\NaturesCompass-1.18.2-1.9.5-forge.jar
+[31Mar2022 17:03:44.048] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file NaturesCompass-1.18.2-1.9.5-forge.jar with {naturescompass} mods - versions {1.18.2-1.9.5-forge}
+[31Mar2022 17:03:44.048] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\NaturesCompass-1.18.2-1.9.5-forge.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[31Mar2022 17:03:44.049] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\Neat+1.8-30.jar
+[31Mar2022 17:03:44.049] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Neat+1.8-30.jar with {neat} mods - versions {1.8-30}
+[31Mar2022 17:03:44.049] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\Neat+1.8-30.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[38,)]]
+[31Mar2022 17:03:44.049] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\OreExcavation-1.10.160.jar
+[31Mar2022 17:03:44.050] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file OreExcavation-1.10.160.jar with {oreexcavation} mods - versions {1.10.160}
+[31Mar2022 17:03:44.050] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\OreExcavation-1.10.160.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[39,)]]
+[31Mar2022 17:03:44.050] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\Paintings-forge-1.18.1-9.1.0.1.jar
+[31Mar2022 17:03:44.051] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Paintings-forge-1.18.1-9.1.0.1.jar with {paintings} mods - versions {9.1.0.1}
+[31Mar2022 17:03:44.051] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\Paintings-forge-1.18.1-9.1.0.1.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[37,)]]
+[31Mar2022 17:03:44.051] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\polymorph-forge-1.18.1-0.40.jar
+[31Mar2022 17:03:44.051] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file polymorph-forge-1.18.1-0.40.jar with {polymorph} mods - versions {1.18.1-0.40}
+[31Mar2022 17:03:44.051] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\polymorph-forge-1.18.1-0.40.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[39,)]]
+[31Mar2022 17:03:44.051] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\sophisticatedbackpacks-1.18.2-3.15.17.559.jar
+[31Mar2022 17:03:44.052] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file sophisticatedbackpacks-1.18.2-3.15.17.559.jar with {sophisticatedbackpacks,sophisticatedcore} mods - versions {1.18.2-3.15.17.559,1.18.2-3.15.17.559}
+[31Mar2022 17:03:44.052] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\sophisticatedbackpacks-1.18.2-3.15.17.559.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[18,)]]
+[31Mar2022 17:03:44.053] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\supplementaries-1.18.1-1.2.5.jar
+[31Mar2022 17:03:44.053] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file supplementaries-1.18.1-1.2.5.jar with {supplementaries} mods - versions {1.2.5}
+[31Mar2022 17:03:44.053] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\supplementaries-1.18.1-1.2.5.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[39,)]]
+[31Mar2022 17:03:44.054] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\swingthroughgrass-1.18.1-1.8.0.jar
+[31Mar2022 17:03:44.054] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file swingthroughgrass-1.18.1-1.8.0.jar with {swingthroughgrass} mods - versions {1.18.1-1.8.0}
+[31Mar2022 17:03:44.054] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\swingthroughgrass-1.18.1-1.8.0.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[39,)]]
+[31Mar2022 17:03:44.054] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\ToastControl-1.18.2-6.0.2.jar
+[31Mar2022 17:03:44.055] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file ToastControl-1.18.2-6.0.2.jar with {toastcontrol} mods - versions {6.0.2}
+[31Mar2022 17:03:44.055] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\ToastControl-1.18.2-6.0.2.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[32,)]]
+[31Mar2022 17:03:44.055] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\valhelsia_core-forge-1.18.2-0.3.0.jar
+[31Mar2022 17:03:44.056] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file valhelsia_core-forge-1.18.2-0.3.0.jar with {valhelsia_core} mods - versions {1.18.2-0.3.0}
+[31Mar2022 17:03:44.056] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\valhelsia_core-forge-1.18.2-0.3.0.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[39,)]]
+[31Mar2022 17:03:44.056] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\valhelsia_structures-forge-1.18.2-0.1.0.jar
+[31Mar2022 17:03:44.057] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file valhelsia_structures-forge-1.18.2-0.1.0.jar with {valhelsia_structures} mods - versions {1.18.2-0.1.0}
+[31Mar2022 17:03:44.057] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\valhelsia_structures-forge-1.18.2-0.1.0.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[39,)]]
+[31Mar2022 17:03:44.057] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\waystones-forge-1.18.2-10.0.0.jar
+[31Mar2022 17:03:44.058] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file waystones-forge-1.18.2-10.0.0.jar with {waystones} mods - versions {10.0.0}
+[31Mar2022 17:03:44.058] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\waystones-forge-1.18.2-10.0.0.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[31Mar2022 17:03:44.058] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\Xaeros_Minimap_22.3.1_Forge_1.18.2.jar
+[31Mar2022 17:03:44.059] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Xaeros_Minimap_22.3.1_Forge_1.18.2.jar with {xaerominimap} mods - versions {22.3.1}
+[31Mar2022 17:03:44.059] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\Xaeros_Minimap_22.3.1_Forge_1.18.2.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[38,)]]
+[31Mar2022 17:03:44.091] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod xaerominimap_core with Javascript path META-INF/xaerominimap_core.js
+[31Mar2022 17:03:44.091] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod META-INF/xaerominimap_core.js
+[31Mar2022 17:03:44.091] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\mods\XaerosWorldMap_1.20.5_Forge_1.18.2.jar
+[31Mar2022 17:03:44.092] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file XaerosWorldMap_1.20.5_Forge_1.18.2.jar with {xaeroworldmap} mods - versions {1.20.5}
+[31Mar2022 17:03:44.093] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\mods\XaerosWorldMap_1.20.5_Forge_1.18.2.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[38,)]]
+[31Mar2022 17:03:44.093] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod xaeroworldmap_core with Javascript path META-INF/xaeroworldmap_core.js
+[31Mar2022 17:03:44.093] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod META-INF/xaeroworldmap_core.js
+[31Mar2022 17:03:44.094] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file client-1.18.2-20220228.144236-srg.jar with {minecraft} mods - versions {1.18.2}
+[31Mar2022 17:03:44.095] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\libraries\net\minecraft\client\1.18.2-20220228.144236\client-1.18.2-20220228.144236-srg.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]
+[31Mar2022 17:03:44.095] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\AppData\Roaming\.minecraft\libraries\net\minecraftforge\forge\1.18.2-40.0.34\forge-1.18.2-40.0.34-universal.jar
+[31Mar2022 17:03:44.096] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.18.2-40.0.34-universal.jar with {forge} mods - versions {40.0.34}
+[31Mar2022 17:03:44.096] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\AppData\Roaming\.minecraft\libraries\net\minecraftforge\forge\1.18.2-40.0.34\forge-1.18.2-40.0.34-universal.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[24,]]]
+[31Mar2022 17:03:44.097] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_method with Javascript path coremods/field_to_method.js
+[31Mar2022 17:03:44.097] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_instanceof with Javascript path coremods/field_to_instanceof.js
+[31Mar2022 17:03:44.097] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod add_bouncer_method with Javascript path coremods/add_bouncer_method.js
+[31Mar2022 17:03:44.097] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_method.js
+[31Mar2022 17:03:44.097] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_instanceof.js
+[31Mar2022 17:03:44.097] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/add_bouncer_method.js
+[31Mar2022 17:03:44.100] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[31Mar2022 17:03:44.112] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 2 language providers
+[31Mar2022 17:03:44.113] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider minecraft, version 1.0
+[31Mar2022 17:03:44.114] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider javafml, version 40
+[31Mar2022 17:03:44.120] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Configured system mods: [minecraft, forge]
+[31Mar2022 17:03:44.120] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: minecraft
+[31Mar2022 17:03:44.120] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: forge
+[31Mar2022 17:03:44.124] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 110 mod requirements (103 mandatory, 7 optional)
+[31Mar2022 17:03:44.126] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 10 mod requirements missing (9 mandatory, 1 optional)
+[31Mar2022 17:03:44.126] [main/ERROR] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Missing mandatory dependencies: yungsapi, cloth_config, placebo, placebo, selene, caelus, placebo, minecraft, terrablender
+[31Mar2022 17:03:44.127] [main/ERROR] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Unsupported installed optional dependencies: jei
+[31Mar2022 17:03:44.534] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
+[31Mar2022 17:03:44.535] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin
+[31Mar2022 17:03:44.536] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin
+[31Mar2022 17:03:44.536] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
+[31Mar2022 17:03:44.536] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading coremod transformers
+[31Mar2022 17:03:44.536] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_method.js
+[31Mar2022 17:03:44.733] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[31Mar2022 17:03:44.733] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_instanceof.js
+[31Mar2022 17:03:44.809] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[31Mar2022 17:03:44.809] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/add_bouncer_method.js
+[31Mar2022 17:03:44.844] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[31Mar2022 17:03:44.851] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@480ad82c to Target : CLASS {Lnet/minecraft/world/effect/MobEffectInstance;} {} {V}
+[31Mar2022 17:03:44.852] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@7b676112 to Target : CLASS {Lnet/minecraft/world/level/block/LiquidBlock;} {} {V}
+[31Mar2022 17:03:44.852] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@5578be42 to Target : CLASS {Lnet/minecraft/world/item/BucketItem;} {} {V}
+[31Mar2022 17:03:44.853] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@4e49ce2b to Target : CLASS {Lnet/minecraft/world/level/block/StairBlock;} {} {V}
+[31Mar2022 17:03:44.853] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@136965e3 to Target : CLASS {Lnet/minecraft/world/level/block/FlowerPotBlock;} {} {V}
+[31Mar2022 17:03:44.853] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@53c6f96d to Target : CLASS {Lnet/minecraft/world/item/ItemStack;} {} {V}
+[31Mar2022 17:03:44.853] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@435cc7f9 to Target : CLASS {Lnet/minecraft/network/play/client/CClientSettingsPacket;} {} {V}
+[31Mar2022 17:03:44.853] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
+[31Mar2022 17:03:46.106] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[31Mar2022 17:03:46.106] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[31Mar2022 17:03:46.106] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(aiimprovements)
+[31Mar2022 17:03:46.106] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(aiimprovements)
+[31Mar2022 17:03:46.106] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(aiimprovements)
+[31Mar2022 17:03:46.107] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(aiimprovements)
+[31Mar2022 17:03:46.107] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(aiimprovements)
+[31Mar2022 17:03:46.107] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(aiimprovements)]
+[31Mar2022 17:03:46.107] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(appleskin)
+[31Mar2022 17:03:46.107] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(appleskin)
+[31Mar2022 17:03:46.107] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(appleskin)
+[31Mar2022 17:03:46.107] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(appleskin)
+[31Mar2022 17:03:46.107] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(appleskin)
+[31Mar2022 17:03:46.107] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(appleskin)]
+[31Mar2022 17:03:46.107] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(balm)
+[31Mar2022 17:03:46.107] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(balm)
+[31Mar2022 17:03:46.107] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(balm)
+[31Mar2022 17:03:46.108] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(balm)
+[31Mar2022 17:03:46.108] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(balm)
+[31Mar2022 17:03:46.108] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(balm)]
+[31Mar2022 17:03:46.108] [main/DEBUG] [mixin/]: Registering mixin config: balm.mixins.json
+[31Mar2022 17:03:46.127] [main/DEBUG] [mixin/]: Compatibility level JAVA_17 specified by balm.mixins.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+[31Mar2022 17:03:46.132] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[31Mar2022 17:03:46.133] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(betteradvancements)
+[31Mar2022 17:03:46.134] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(betteradvancements)
+[31Mar2022 17:03:46.135] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(betteradvancements)
+[31Mar2022 17:03:46.135] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(betteradvancements)
+[31Mar2022 17:03:46.135] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(betteradvancements)
+[31Mar2022 17:03:46.135] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(betteradvancements)]
+[31Mar2022 17:03:46.135] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(betterf3)
+[31Mar2022 17:03:46.136] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(betterf3)
+[31Mar2022 17:03:46.136] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(betterf3)
+[31Mar2022 17:03:46.136] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(betterf3)
+[31Mar2022 17:03:46.136] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(betterf3)
+[31Mar2022 17:03:46.138] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(betterf3)]
+[31Mar2022 17:03:46.138] [main/DEBUG] [mixin/]: Registering mixin config: betterf3.mixins.json
+[31Mar2022 17:03:46.143] [main/DEBUG] [mixin/]: Registering mixin config: betterf3.forge.mixins.json
+[31Mar2022 17:03:46.147] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(bettermineshafts)
+[31Mar2022 17:03:46.147] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(bettermineshafts)
+[31Mar2022 17:03:46.147] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(bettermineshafts)
+[31Mar2022 17:03:46.147] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(bettermineshafts)
+[31Mar2022 17:03:46.147] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(bettermineshafts)
+[31Mar2022 17:03:46.147] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(bettermineshafts)]
+[31Mar2022 17:03:46.147] [main/DEBUG] [mixin/]: Registering mixin config: bettermineshafts.mixins.json
+[31Mar2022 17:03:46.150] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(biomesoplenty)
+[31Mar2022 17:03:46.151] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(biomesoplenty)
+[31Mar2022 17:03:46.151] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(biomesoplenty)
+[31Mar2022 17:03:46.151] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(biomesoplenty)
+[31Mar2022 17:03:46.151] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(biomesoplenty)
+[31Mar2022 17:03:46.151] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(biomesoplenty)]
+[31Mar2022 17:03:46.151] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(carryon)
+[31Mar2022 17:03:46.151] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(carryon)
+[31Mar2022 17:03:46.151] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(carryon)
+[31Mar2022 17:03:46.151] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(carryon)
+[31Mar2022 17:03:46.151] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(carryon)
+[31Mar2022 17:03:46.151] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(carryon)]
+[31Mar2022 17:03:46.152] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(cfm)
+[31Mar2022 17:03:46.152] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(cfm)
+[31Mar2022 17:03:46.152] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(cfm)
+[31Mar2022 17:03:46.152] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(cfm)
+[31Mar2022 17:03:46.152] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(cfm)
+[31Mar2022 17:03:46.152] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(cfm)]
+[31Mar2022 17:03:46.152] [main/DEBUG] [mixin/]: Registering mixin config: cfm.mixins.json
+[31Mar2022 17:03:46.155] [main/DEBUG] [mixin/]: Compatibility level JAVA_8 specified by cfm.mixins.json is lower than the default level supported by the current mixin service (JAVA_16).
+[31Mar2022 17:03:46.156] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(chiselsandbits)
+[31Mar2022 17:03:46.156] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(chiselsandbits)
+[31Mar2022 17:03:46.156] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(chiselsandbits)
+[31Mar2022 17:03:46.156] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(chiselsandbits)
+[31Mar2022 17:03:46.156] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(chiselsandbits)
+[31Mar2022 17:03:46.156] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(chiselsandbits)]
+[31Mar2022 17:03:46.156] [main/DEBUG] [mixin/]: Registering mixin config: chiselsandbits.mixins.json
+[31Mar2022 17:03:46.159] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(clienttweaks)
+[31Mar2022 17:03:46.160] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(clienttweaks)
+[31Mar2022 17:03:46.160] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(clienttweaks)
+[31Mar2022 17:03:46.160] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(clienttweaks)
+[31Mar2022 17:03:46.160] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(clienttweaks)
+[31Mar2022 17:03:46.160] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(clienttweaks)]
+[31Mar2022 17:03:46.160] [main/DEBUG] [mixin/]: Registering mixin config: clienttweaks.mixins.json
+[31Mar2022 17:03:46.164] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(clumps)
+[31Mar2022 17:03:46.164] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(clumps)
+[31Mar2022 17:03:46.164] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(clumps)
+[31Mar2022 17:03:46.164] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(clumps)
+[31Mar2022 17:03:46.164] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(clumps)
+[31Mar2022 17:03:46.164] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(clumps)]
+[31Mar2022 17:03:46.164] [main/DEBUG] [mixin/]: Registering mixin config: clumps.mixins.json
+[31Mar2022 17:03:46.167] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(comforts)
+[31Mar2022 17:03:46.167] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(comforts)
+[31Mar2022 17:03:46.167] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(comforts)
+[31Mar2022 17:03:46.167] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(comforts)
+[31Mar2022 17:03:46.167] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(comforts)
+[31Mar2022 17:03:46.167] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(comforts)]
+[31Mar2022 17:03:46.168] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(create)
+[31Mar2022 17:03:46.168] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(create)
+[31Mar2022 17:03:46.168] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(create)
+[31Mar2022 17:03:46.168] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(create)
+[31Mar2022 17:03:46.168] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(create)
+[31Mar2022 17:03:46.169] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(create)]
+[31Mar2022 17:03:46.169] [main/DEBUG] [mixin/]: Registering mixin config: create.mixins.json
+[31Mar2022 17:03:46.172] [main/DEBUG] [mixin/]: Compatibility level JAVA_16 specified by create.mixins.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+[31Mar2022 17:03:46.172] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(cucumber)
+[31Mar2022 17:03:46.173] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(cucumber)
+[31Mar2022 17:03:46.173] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(cucumber)
+[31Mar2022 17:03:46.173] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(cucumber)
+[31Mar2022 17:03:46.173] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(cucumber)
+[31Mar2022 17:03:46.173] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(cucumber)]
+[31Mar2022 17:03:46.173] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(curios)
+[31Mar2022 17:03:46.174] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(curios)
+[31Mar2022 17:03:46.174] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(curios)
+[31Mar2022 17:03:46.174] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(curios)
+[31Mar2022 17:03:46.174] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(curios)
+[31Mar2022 17:03:46.174] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(curios)]
+[31Mar2022 17:03:46.174] [main/DEBUG] [mixin/]: Registering mixin config: curios.mixins.json
+[31Mar2022 17:03:46.177] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(curiouselytra)
+[31Mar2022 17:03:46.177] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(curiouselytra)
+[31Mar2022 17:03:46.177] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(curiouselytra)
+[31Mar2022 17:03:46.177] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(curiouselytra)
+[31Mar2022 17:03:46.178] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(curiouselytra)
+[31Mar2022 17:03:46.178] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(curiouselytra)]
+[31Mar2022 17:03:46.178] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(cyclic)
+[31Mar2022 17:03:46.178] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(cyclic)
+[31Mar2022 17:03:46.178] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(cyclic)
+[31Mar2022 17:03:46.178] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(cyclic)
+[31Mar2022 17:03:46.178] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(cyclic)
+[31Mar2022 17:03:46.178] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(cyclic)]
+[31Mar2022 17:03:46.178] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(decorative_blocks)
+[31Mar2022 17:03:46.178] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(decorative_blocks)
+[31Mar2022 17:03:46.178] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(decorative_blocks)
+[31Mar2022 17:03:46.178] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(decorative_blocks)
+[31Mar2022 17:03:46.179] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(decorative_blocks)
+[31Mar2022 17:03:46.179] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(decorative_blocks)]
+[31Mar2022 17:03:46.179] [main/DEBUG] [mixin/]: Registering mixin config: decorative_blocks.mixins.json
+[31Mar2022 17:03:46.182] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(dungeoncrawl)
+[31Mar2022 17:03:46.182] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(dungeoncrawl)
+[31Mar2022 17:03:46.182] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(dungeoncrawl)
+[31Mar2022 17:03:46.182] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(dungeoncrawl)
+[31Mar2022 17:03:46.182] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(dungeoncrawl)
+[31Mar2022 17:03:46.182] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(dungeoncrawl)]
+[31Mar2022 17:03:46.182] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(fastfurnace)
+[31Mar2022 17:03:46.183] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(fastfurnace)
+[31Mar2022 17:03:46.183] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(fastfurnace)
+[31Mar2022 17:03:46.183] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(fastfurnace)
+[31Mar2022 17:03:46.183] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(fastfurnace)
+[31Mar2022 17:03:46.183] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(fastfurnace)]
+[31Mar2022 17:03:46.183] [main/DEBUG] [mixin/]: Registering mixin config: fastfurnace.mixins.json
+[31Mar2022 17:03:46.186] [main/DEBUG] [mixin/]: Compatibility level JAVA_8 specified by fastfurnace.mixins.json is lower than the default level supported by the current mixin service (JAVA_16).
+[31Mar2022 17:03:46.186] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(fastleafdecay)
+[31Mar2022 17:03:46.186] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(fastleafdecay)
+[31Mar2022 17:03:46.186] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(fastleafdecay)
+[31Mar2022 17:03:46.186] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(fastleafdecay)
+[31Mar2022 17:03:46.186] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(fastleafdecay)
+[31Mar2022 17:03:46.186] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(fastleafdecay)]
+[31Mar2022 17:03:46.187] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(fastbench)
+[31Mar2022 17:03:46.187] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(fastbench)
+[31Mar2022 17:03:46.187] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(fastbench)
+[31Mar2022 17:03:46.187] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(fastbench)
+[31Mar2022 17:03:46.187] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(fastbench)
+[31Mar2022 17:03:46.187] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(fastbench)]
+[31Mar2022 17:03:46.187] [main/DEBUG] [mixin/]: Registering mixin config: fastbench.mixins.json
+[31Mar2022 17:03:46.190] [main/DEBUG] [mixin/]: Compatibility level JAVA_8 specified by fastbench.mixins.json is lower than the default level supported by the current mixin service (JAVA_16).
+[31Mar2022 17:03:46.190] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(ferritecore)
+[31Mar2022 17:03:46.190] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(ferritecore)
+[31Mar2022 17:03:46.190] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(ferritecore)
+[31Mar2022 17:03:46.190] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(ferritecore)
+[31Mar2022 17:03:46.190] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(ferritecore)
+[31Mar2022 17:03:46.191] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(ferritecore)]
+[31Mar2022 17:03:46.191] [main/DEBUG] [mixin/]: Registering mixin config: ferritecore.predicates.mixin.json
+[31Mar2022 17:03:46.194] [main/DEBUG] [mixin/]: Registering mixin config: ferritecore.fastmap.mixin.json
+[31Mar2022 17:03:46.196] [main/DEBUG] [mixin/]: Registering mixin config: ferritecore.mrl.mixin.json
+[31Mar2022 17:03:46.200] [main/DEBUG] [mixin/]: Registering mixin config: ferritecore.dedupmultipart.mixin.json
+[31Mar2022 17:03:46.203] [main/DEBUG] [mixin/]: Registering mixin config: ferritecore.blockstatecache.mixin.json
+[31Mar2022 17:03:46.206] [main/DEBUG] [mixin/]: Registering mixin config: ferritecore.dedupbakedquad.mixin.json
+[31Mar2022 17:03:46.209] [main/DEBUG] [mixin/]: Registering mixin config: ferritecore.threaddetec.mixin.json
+[31Mar2022 17:03:46.212] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(flywheel)
+[31Mar2022 17:03:46.212] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(flywheel)
+[31Mar2022 17:03:46.212] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(flywheel)
+[31Mar2022 17:03:46.212] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(flywheel)
+[31Mar2022 17:03:46.212] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(flywheel)
+[31Mar2022 17:03:46.212] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(flywheel)]
+[31Mar2022 17:03:46.212] [main/DEBUG] [mixin/]: Registering mixin config: flywheel.mixins.json
+[31Mar2022 17:03:46.215] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(gravestone)
+[31Mar2022 17:03:46.216] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(gravestone)
+[31Mar2022 17:03:46.216] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(gravestone)
+[31Mar2022 17:03:46.216] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(gravestone)
+[31Mar2022 17:03:46.216] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(gravestone)
+[31Mar2022 17:03:46.216] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(gravestone)]
+[31Mar2022 17:03:46.216] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(guardvillagers)
+[31Mar2022 17:03:46.216] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(guardvillagers)
+[31Mar2022 17:03:46.216] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(guardvillagers)
+[31Mar2022 17:03:46.216] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(guardvillagers)
+[31Mar2022 17:03:46.216] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(guardvillagers)
+[31Mar2022 17:03:46.216] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(guardvillagers)]
+[31Mar2022 17:03:46.216] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(immersiveengineering)
+[31Mar2022 17:03:46.217] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(immersiveengineering)
+[31Mar2022 17:03:46.217] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(immersiveengineering)
+[31Mar2022 17:03:46.217] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(immersiveengineering)
+[31Mar2022 17:03:46.217] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(immersiveengineering)
+[31Mar2022 17:03:46.217] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(immersiveengineering)]
+[31Mar2022 17:03:46.217] [main/DEBUG] [mixin/]: Registering mixin config: immersiveengineering.mixins.json
+[31Mar2022 17:03:46.220] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(inventoryhud)
+[31Mar2022 17:03:46.220] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(inventoryhud)
+[31Mar2022 17:03:46.220] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(inventoryhud)
+[31Mar2022 17:03:46.220] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(inventoryhud)
+[31Mar2022 17:03:46.220] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(inventoryhud)
+[31Mar2022 17:03:46.221] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(inventoryhud)]
+[31Mar2022 17:03:46.221] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(ironchest)
+[31Mar2022 17:03:46.221] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(ironchest)
+[31Mar2022 17:03:46.221] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(ironchest)
+[31Mar2022 17:03:46.221] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(ironchest)
+[31Mar2022 17:03:46.221] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(ironchest)
+[31Mar2022 17:03:46.221] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(ironchest)]
+[31Mar2022 17:03:46.221] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(jade)
+[31Mar2022 17:03:46.221] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(jade)
+[31Mar2022 17:03:46.221] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(jade)
+[31Mar2022 17:03:46.221] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(jade)
+[31Mar2022 17:03:46.221] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(jade)
+[31Mar2022 17:03:46.221] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(jade)]
+[31Mar2022 17:03:46.221] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(jei)
+[31Mar2022 17:03:46.222] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(jei)
+[31Mar2022 17:03:46.222] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(jei)
+[31Mar2022 17:03:46.222] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(jei)
+[31Mar2022 17:03:46.222] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(jei)
+[31Mar2022 17:03:46.222] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(jei)]
+[31Mar2022 17:03:46.222] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(justenoughprofessions)
+[31Mar2022 17:03:46.222] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(justenoughprofessions)
+[31Mar2022 17:03:46.222] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(justenoughprofessions)
+[31Mar2022 17:03:46.222] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(justenoughprofessions)
+[31Mar2022 17:03:46.222] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(justenoughprofessions)
+[31Mar2022 17:03:46.222] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(justenoughprofessions)]
+[31Mar2022 17:03:46.222] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(jeresources)
+[31Mar2022 17:03:46.222] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(jeresources)
+[31Mar2022 17:03:46.222] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(jeresources)
+[31Mar2022 17:03:46.223] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(jeresources)
+[31Mar2022 17:03:46.223] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(jeresources)
+[31Mar2022 17:03:46.223] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(jeresources)]
+[31Mar2022 17:03:46.223] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(kleeslabs)
+[31Mar2022 17:03:46.223] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(kleeslabs)
+[31Mar2022 17:03:46.223] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(kleeslabs)
+[31Mar2022 17:03:46.223] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(kleeslabs)
+[31Mar2022 17:03:46.223] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(kleeslabs)
+[31Mar2022 17:03:46.223] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(kleeslabs)]
+[31Mar2022 17:03:46.223] [main/DEBUG] [mixin/]: Registering mixin config: kleeslabs.mixins.json
+[31Mar2022 17:03:46.225] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(mcwbridges)
+[31Mar2022 17:03:46.226] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(mcwbridges)
+[31Mar2022 17:03:46.226] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(mcwbridges)
+[31Mar2022 17:03:46.226] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(mcwbridges)
+[31Mar2022 17:03:46.226] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(mcwbridges)
+[31Mar2022 17:03:46.226] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mcwbridges)]
+[31Mar2022 17:03:46.226] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(mcwdoors)
+[31Mar2022 17:03:46.226] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(mcwdoors)
+[31Mar2022 17:03:46.226] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(mcwdoors)
+[31Mar2022 17:03:46.226] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(mcwdoors)
+[31Mar2022 17:03:46.226] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(mcwdoors)
+[31Mar2022 17:03:46.226] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mcwdoors)]
+[31Mar2022 17:03:46.226] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(mcwfences)
+[31Mar2022 17:03:46.226] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(mcwfences)
+[31Mar2022 17:03:46.227] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(mcwfences)
+[31Mar2022 17:03:46.227] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(mcwfences)
+[31Mar2022 17:03:46.227] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(mcwfences)
+[31Mar2022 17:03:46.227] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mcwfences)]
+[31Mar2022 17:03:46.227] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(mcwtrpdoors)
+[31Mar2022 17:03:46.227] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(mcwtrpdoors)
+[31Mar2022 17:03:46.227] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(mcwtrpdoors)
+[31Mar2022 17:03:46.227] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(mcwtrpdoors)
+[31Mar2022 17:03:46.227] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(mcwtrpdoors)
+[31Mar2022 17:03:46.227] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mcwtrpdoors)]
+[31Mar2022 17:03:46.227] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(mcwwindows)
+[31Mar2022 17:03:46.227] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(mcwwindows)
+[31Mar2022 17:03:46.228] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(mcwwindows)
+[31Mar2022 17:03:46.228] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(mcwwindows)
+[31Mar2022 17:03:46.228] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(mcwwindows)
+[31Mar2022 17:03:46.228] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mcwwindows)]
+[31Mar2022 17:03:46.228] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(morevillagers)
+[31Mar2022 17:03:46.228] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(morevillagers)
+[31Mar2022 17:03:46.228] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(morevillagers)
+[31Mar2022 17:03:46.228] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(morevillagers)
+[31Mar2022 17:03:46.228] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(morevillagers)
+[31Mar2022 17:03:46.228] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(morevillagers)]
+[31Mar2022 17:03:46.228] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(mysticalagriculture)
+[31Mar2022 17:03:46.228] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(mysticalagriculture)
+[31Mar2022 17:03:46.228] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(mysticalagriculture)
+[31Mar2022 17:03:46.229] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(mysticalagriculture)
+[31Mar2022 17:03:46.229] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(mysticalagriculture)
+[31Mar2022 17:03:46.229] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mysticalagriculture)]
+[31Mar2022 17:03:46.229] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(naturescompass)
+[31Mar2022 17:03:46.229] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(naturescompass)
+[31Mar2022 17:03:46.229] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(naturescompass)
+[31Mar2022 17:03:46.229] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(naturescompass)
+[31Mar2022 17:03:46.229] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(naturescompass)
+[31Mar2022 17:03:46.229] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(naturescompass)]
+[31Mar2022 17:03:46.229] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(neat)
+[31Mar2022 17:03:46.229] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(neat)
+[31Mar2022 17:03:46.229] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(neat)
+[31Mar2022 17:03:46.230] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(neat)
+[31Mar2022 17:03:46.230] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(neat)
+[31Mar2022 17:03:46.230] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(neat)]
+[31Mar2022 17:03:46.230] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(oreexcavation)
+[31Mar2022 17:03:46.230] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(oreexcavation)
+[31Mar2022 17:03:46.230] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(oreexcavation)
+[31Mar2022 17:03:46.230] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(oreexcavation)
+[31Mar2022 17:03:46.230] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(oreexcavation)
+[31Mar2022 17:03:46.230] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(oreexcavation)]
+[31Mar2022 17:03:46.230] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(paintings)
+[31Mar2022 17:03:46.230] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(paintings)
+[31Mar2022 17:03:46.231] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(paintings)
+[31Mar2022 17:03:46.231] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(paintings)
+[31Mar2022 17:03:46.231] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(paintings)
+[31Mar2022 17:03:46.231] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(paintings)]
+[31Mar2022 17:03:46.231] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(polymorph)
+[31Mar2022 17:03:46.231] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(polymorph)
+[31Mar2022 17:03:46.231] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(polymorph)
+[31Mar2022 17:03:46.231] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(polymorph)
+[31Mar2022 17:03:46.231] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(polymorph)
+[31Mar2022 17:03:46.231] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(polymorph)]
+[31Mar2022 17:03:46.231] [main/DEBUG] [mixin/]: Registering mixin config: polymorph.mixins.json
+[31Mar2022 17:03:46.234] [main/DEBUG] [mixin/]: Compatibility level JAVA_16 specified by polymorph.mixins.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+[31Mar2022 17:03:46.234] [main/DEBUG] [mixin/]: Registering mixin config: polymorph_integrations.mixins.json
+[31Mar2022 17:03:46.237] [main/DEBUG] [mixin/]: Compatibility level JAVA_16 specified by polymorph_integrations.mixins.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+[31Mar2022 17:03:46.238] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(sophisticatedbackpacks)
+[31Mar2022 17:03:46.238] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(sophisticatedbackpacks)
+[31Mar2022 17:03:46.238] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(sophisticatedbackpacks)
+[31Mar2022 17:03:46.238] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(sophisticatedbackpacks)
+[31Mar2022 17:03:46.238] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(sophisticatedbackpacks)
+[31Mar2022 17:03:46.238] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(sophisticatedbackpacks)]
+[31Mar2022 17:03:46.238] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(supplementaries)
+[31Mar2022 17:03:46.238] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(supplementaries)
+[31Mar2022 17:03:46.238] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(supplementaries)
+[31Mar2022 17:03:46.238] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(supplementaries)
+[31Mar2022 17:03:46.238] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(supplementaries)
+[31Mar2022 17:03:46.238] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(supplementaries)]
+[31Mar2022 17:03:46.238] [main/DEBUG] [mixin/]: Registering mixin config: supplementaries.mixins.json
+[31Mar2022 17:03:46.241] [main/DEBUG] [mixin/]: Compatibility level JAVA_16 specified by supplementaries.mixins.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+[31Mar2022 17:03:46.241] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(swingthroughgrass)
+[31Mar2022 17:03:46.242] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(swingthroughgrass)
+[31Mar2022 17:03:46.242] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(swingthroughgrass)
+[31Mar2022 17:03:46.242] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(swingthroughgrass)
+[31Mar2022 17:03:46.242] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(swingthroughgrass)
+[31Mar2022 17:03:46.242] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(swingthroughgrass)]
+[31Mar2022 17:03:46.242] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(toastcontrol)
+[31Mar2022 17:03:46.242] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(toastcontrol)
+[31Mar2022 17:03:46.242] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(toastcontrol)
+[31Mar2022 17:03:46.242] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(toastcontrol)
+[31Mar2022 17:03:46.242] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(toastcontrol)
+[31Mar2022 17:03:46.242] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(toastcontrol)]
+[31Mar2022 17:03:46.242] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(valhelsia_core)
+[31Mar2022 17:03:46.242] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(valhelsia_core)
+[31Mar2022 17:03:46.242] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(valhelsia_core)
+[31Mar2022 17:03:46.242] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(valhelsia_core)
+[31Mar2022 17:03:46.243] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(valhelsia_core)
+[31Mar2022 17:03:46.243] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(valhelsia_core)]
+[31Mar2022 17:03:46.243] [main/DEBUG] [mixin/]: Registering mixin config: valhelsia_core.mixins.json
+[31Mar2022 17:03:46.245] [main/DEBUG] [mixin/]: Compatibility level JAVA_16 specified by valhelsia_core.mixins.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+[31Mar2022 17:03:46.246] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(valhelsia_structures)
+[31Mar2022 17:03:46.246] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(valhelsia_structures)
+[31Mar2022 17:03:46.246] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(valhelsia_structures)
+[31Mar2022 17:03:46.246] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(valhelsia_structures)
+[31Mar2022 17:03:46.246] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(valhelsia_structures)
+[31Mar2022 17:03:46.246] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(valhelsia_structures)]
+[31Mar2022 17:03:46.246] [main/DEBUG] [mixin/]: Registering mixin config: valhelsia_structures.mixins.json
+[31Mar2022 17:03:46.249] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(waystones)
+[31Mar2022 17:03:46.249] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(waystones)
+[31Mar2022 17:03:46.249] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(waystones)
+[31Mar2022 17:03:46.249] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(waystones)
+[31Mar2022 17:03:46.250] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(waystones)
+[31Mar2022 17:03:46.250] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(waystones)]
+[31Mar2022 17:03:46.250] [main/DEBUG] [mixin/]: Registering mixin config: waystones.mixins.json
+[31Mar2022 17:03:46.252] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(xaerominimap)
+[31Mar2022 17:03:46.253] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(xaerominimap)
+[31Mar2022 17:03:46.253] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(xaerominimap)
+[31Mar2022 17:03:46.253] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(xaerominimap)
+[31Mar2022 17:03:46.253] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(xaerominimap)
+[31Mar2022 17:03:46.253] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(xaerominimap)]
+[31Mar2022 17:03:46.253] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(xaeroworldmap)
+[31Mar2022 17:03:46.253] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(xaeroworldmap)
+[31Mar2022 17:03:46.253] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(xaeroworldmap)
+[31Mar2022 17:03:46.253] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(xaeroworldmap)
+[31Mar2022 17:03:46.253] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(xaeroworldmap)
+[31Mar2022 17:03:46.253] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(xaeroworldmap)]
+[31Mar2022 17:03:46.253] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(minecraft)
+[31Mar2022 17:03:46.253] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(minecraft)
+[31Mar2022 17:03:46.253] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(minecraft)
+[31Mar2022 17:03:46.253] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(minecraft)
+[31Mar2022 17:03:46.254] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(minecraft)
+[31Mar2022 17:03:46.254] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[31Mar2022 17:03:46.254] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(forge)
+[31Mar2022 17:03:46.254] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(forge)
+[31Mar2022 17:03:46.254] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(forge)
+[31Mar2022 17:03:46.254] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(forge)
+[31Mar2022 17:03:46.254] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(forge)
+[31Mar2022 17:03:46.254] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+[31Mar2022 17:03:46.254] [main/DEBUG] [mixin/]: inject() running with 59 agents
+[31Mar2022 17:03:46.254] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[31Mar2022 17:03:46.254] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(aiimprovements)]
+[31Mar2022 17:03:46.254] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(appleskin)]
+[31Mar2022 17:03:46.254] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(balm)]
+[31Mar2022 17:03:46.254] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(betteradvancements)]
+[31Mar2022 17:03:46.254] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(betterf3)]
+[31Mar2022 17:03:46.254] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(bettermineshafts)]
+[31Mar2022 17:03:46.254] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(biomesoplenty)]
+[31Mar2022 17:03:46.255] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(carryon)]
+[31Mar2022 17:03:46.255] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(cfm)]
+[31Mar2022 17:03:46.255] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(chiselsandbits)]
+[31Mar2022 17:03:46.255] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(clienttweaks)]
+[31Mar2022 17:03:46.255] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(clumps)]
+[31Mar2022 17:03:46.255] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(comforts)]
+[31Mar2022 17:03:46.255] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(create)]
+[31Mar2022 17:03:46.255] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(cucumber)]
+[31Mar2022 17:03:46.255] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(curios)]
+[31Mar2022 17:03:46.255] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(curiouselytra)]
+[31Mar2022 17:03:46.255] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(cyclic)]
+[31Mar2022 17:03:46.255] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(decorative_blocks)]
+[31Mar2022 17:03:46.255] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(dungeoncrawl)]
+[31Mar2022 17:03:46.255] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(fastfurnace)]
+[31Mar2022 17:03:46.255] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(fastleafdecay)]
+[31Mar2022 17:03:46.255] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(fastbench)]
+[31Mar2022 17:03:46.255] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(ferritecore)]
+[31Mar2022 17:03:46.255] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(flywheel)]
+[31Mar2022 17:03:46.256] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(gravestone)]
+[31Mar2022 17:03:46.256] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(guardvillagers)]
+[31Mar2022 17:03:46.256] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(immersiveengineering)]
+[31Mar2022 17:03:46.256] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(inventoryhud)]
+[31Mar2022 17:03:46.256] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(ironchest)]
+[31Mar2022 17:03:46.256] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(jade)]
+[31Mar2022 17:03:46.256] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(jei)]
+[31Mar2022 17:03:46.256] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(justenoughprofessions)]
+[31Mar2022 17:03:46.256] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(jeresources)]
+[31Mar2022 17:03:46.256] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(kleeslabs)]
+[31Mar2022 17:03:46.256] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mcwbridges)]
+[31Mar2022 17:03:46.256] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mcwdoors)]
+[31Mar2022 17:03:46.256] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mcwfences)]
+[31Mar2022 17:03:46.256] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mcwtrpdoors)]
+[31Mar2022 17:03:46.256] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mcwwindows)]
+[31Mar2022 17:03:46.256] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(morevillagers)]
+[31Mar2022 17:03:46.256] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mysticalagriculture)]
+[31Mar2022 17:03:46.256] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(naturescompass)]
+[31Mar2022 17:03:46.256] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(neat)]
+[31Mar2022 17:03:46.256] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(oreexcavation)]
+[31Mar2022 17:03:46.257] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(paintings)]
+[31Mar2022 17:03:46.257] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(polymorph)]
+[31Mar2022 17:03:46.257] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(sophisticatedbackpacks)]
+[31Mar2022 17:03:46.257] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(supplementaries)]
+[31Mar2022 17:03:46.257] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(swingthroughgrass)]
+[31Mar2022 17:03:46.257] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(toastcontrol)]
+[31Mar2022 17:03:46.257] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(valhelsia_core)]
+[31Mar2022 17:03:46.257] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(valhelsia_structures)]
+[31Mar2022 17:03:46.257] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(waystones)]
+[31Mar2022 17:03:46.257] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(xaerominimap)]
+[31Mar2022 17:03:46.257] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(xaeroworldmap)]
+[31Mar2022 17:03:46.257] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[31Mar2022 17:03:46.257] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+[31Mar2022 17:03:46.269] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclient' with arguments [--version, 1.18.2-forge-40.0.34, --gameDir, C:\Users\User\AppData\Roaming\.minecraft, --assetsDir, C:\Users\User\AppData\Roaming\.minecraft\assets, --uuid, ce0459dfd8514c66bd2b9c8166a2ea00, --username, VoidConstruct, --assetIndex, 1.18, --accessToken, ????????, --clientId, NGE1OWM1NDUtZmNkYy00MGZlLWJmZTYtM2U3YjkxMjI2OWU0, --xuid, 2535469575713033, --userType, msa, --versionType, release]
+[31Mar2022 17:03:46.340] [main/DEBUG] [mixin/]: Error cleaning class output directory: .mixin.out
+[31Mar2022 17:03:46.347] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[31Mar2022 17:03:46.348] [main/DEBUG] [mixin/]: Selecting config balm.mixins.json
+[31Mar2022 17:03:46.353] [main/DEBUG] [mixin/]: Selecting config betterf3.mixins.json
+[31Mar2022 17:03:46.355] [main/DEBUG] [mixin/]: Selecting config betterf3.forge.mixins.json
+[31Mar2022 17:03:46.357] [main/DEBUG] [mixin/]: Selecting config bettermineshafts.mixins.json
+[31Mar2022 17:03:46.360] [main/DEBUG] [mixin/]: Selecting config cfm.mixins.json
+[31Mar2022 17:03:46.363] [main/DEBUG] [mixin/]: Selecting config chiselsandbits.mixins.json
+[31Mar2022 17:03:46.365] [main/DEBUG] [mixin/]: Selecting config clienttweaks.mixins.json
+[31Mar2022 17:03:46.368] [main/DEBUG] [mixin/]: Selecting config clumps.mixins.json
+[31Mar2022 17:03:46.372] [main/DEBUG] [mixin/]: Selecting config create.mixins.json
+[31Mar2022 17:03:46.374] [main/DEBUG] [mixin/]: Selecting config curios.mixins.json
+[31Mar2022 17:03:46.376] [main/DEBUG] [mixin/]: Selecting config decorative_blocks.mixins.json
+[31Mar2022 17:03:46.378] [main/DEBUG] [mixin/]: Selecting config fastfurnace.mixins.json
+[31Mar2022 17:03:46.380] [main/DEBUG] [mixin/]: Selecting config fastbench.mixins.json
+[31Mar2022 17:03:46.382] [main/DEBUG] [mixin/]: Selecting config ferritecore.predicates.mixin.json
+[31Mar2022 17:03:46.412] [main/DEBUG] [mixin/]: Selecting config ferritecore.fastmap.mixin.json
+[31Mar2022 17:03:46.417] [main/DEBUG] [mixin/]: Selecting config ferritecore.mrl.mixin.json
+[31Mar2022 17:03:46.420] [main/DEBUG] [mixin/]: Selecting config ferritecore.dedupmultipart.mixin.json
+[31Mar2022 17:03:46.423] [main/DEBUG] [mixin/]: Selecting config ferritecore.blockstatecache.mixin.json
+[31Mar2022 17:03:46.427] [main/DEBUG] [mixin/]: Selecting config ferritecore.dedupbakedquad.mixin.json
+[31Mar2022 17:03:46.430] [main/DEBUG] [mixin/]: Selecting config ferritecore.threaddetec.mixin.json
+[31Mar2022 17:03:46.434] [main/DEBUG] [mixin/]: Selecting config flywheel.mixins.json
+[31Mar2022 17:03:46.437] [main/DEBUG] [mixin/]: Selecting config immersiveengineering.mixins.json
+[31Mar2022 17:03:46.440] [main/DEBUG] [mixin/]: Selecting config kleeslabs.mixins.json
+[31Mar2022 17:03:46.443] [main/DEBUG] [mixin/]: Selecting config polymorph.mixins.json
+[31Mar2022 17:03:46.447] [main/DEBUG] [mixin/]: Selecting config polymorph_integrations.mixins.json
+[31Mar2022 17:03:46.476] [main/DEBUG] [mixin/]: Selecting config supplementaries.mixins.json
+[31Mar2022 17:03:46.521] [main/DEBUG] [mixin/]: Selecting config valhelsia_core.mixins.json
+[31Mar2022 17:03:46.524] [main/DEBUG] [mixin/]: Selecting config valhelsia_structures.mixins.json
+[31Mar2022 17:03:46.526] [main/DEBUG] [mixin/]: Selecting config waystones.mixins.json
+[31Mar2022 17:03:46.529] [main/DEBUG] [mixin/]: Preparing balm.mixins.json (14)
+[31Mar2022 17:03:46.625] [main/DEBUG] [mixin/]: Preparing betterf3.mixins.json (5)
+[31Mar2022 17:03:46.651] [main/DEBUG] [mixin/]: Preparing betterf3.forge.mixins.json (1)
+[31Mar2022 17:03:46.656] [main/DEBUG] [mixin/]: Preparing bettermineshafts.mixins.json (3)
+[31Mar2022 17:03:46.665] [main/WARN] [mixin/]: Error loading class: net/minecraft/world/level/levelgen/StructureSettings (java.lang.ClassNotFoundException: net.minecraft.world.level.levelgen.StructureSettings)
+[31Mar2022 17:03:46.665] [main/WARN] [mixin/]: @Mixin target net.minecraft.world.level.levelgen.StructureSettings was not found bettermineshafts.mixins.json:StructureSettingsAccessor
+[31Mar2022 17:03:46.665] [main/DEBUG] [mixin/]: Preparing cfm.mixins.json (1)
+[31Mar2022 17:03:46.672] [main/DEBUG] [mixin/]: Preparing chiselsandbits.mixins.json (9)
+[31Mar2022 17:03:46.730] [main/DEBUG] [mixin/]: Preparing clienttweaks.mixins.json (3)
+[31Mar2022 17:03:46.737] [main/DEBUG] [mixin/]: Preparing clumps.mixins.json (2)
+[31Mar2022 17:03:46.740] [main/DEBUG] [mixin/]: Preparing curios.mixins.json (4)
+[31Mar2022 17:03:46.752] [main/DEBUG] [mixin/]: Preparing decorative_blocks.mixins.json (7)
+[31Mar2022 17:03:46.777] [main/DEBUG] [mixin/]: Preparing fastfurnace.mixins.json (1)
+[31Mar2022 17:03:46.778] [main/DEBUG] [mixin/]: Preparing fastbench.mixins.json (3)
+[31Mar2022 17:03:46.784] [main/DEBUG] [mixin/]: Preparing ferritecore.predicates.mixin.json (3)
+[31Mar2022 17:03:46.789] [main/DEBUG] [mixin/]: Preparing ferritecore.fastmap.mixin.json (1)
+[31Mar2022 17:03:46.791] [main/DEBUG] [mixin/]: Preparing ferritecore.mrl.mixin.json (2)
+[31Mar2022 17:03:46.794] [main/DEBUG] [mixin/]: Preparing ferritecore.dedupmultipart.mixin.json (2)
+[31Mar2022 17:03:46.797] [main/DEBUG] [mixin/]: Preparing ferritecore.blockstatecache.mixin.json (8)
+[31Mar2022 17:03:46.811] [main/DEBUG] [mixin/]: Preparing ferritecore.dedupbakedquad.mixin.json (2)
+[31Mar2022 17:03:46.813] [main/DEBUG] [mixin/]: Preparing ferritecore.threaddetec.mixin.json (1)
+[31Mar2022 17:03:46.815] [main/DEBUG] [mixin/]: Preparing flywheel.mixins.json (25)
+[31Mar2022 17:03:46.889] [main/DEBUG] [mixin/]: Preparing immersiveengineering.mixins.json (32)
+[31Mar2022 17:03:46.970] [main/DEBUG] [mixin/]: Preparing kleeslabs.mixins.json (1)
+[31Mar2022 17:03:46.970] [main/DEBUG] [mixin/]: Preparing polymorph.mixins.json (8)
+[31Mar2022 17:03:46.977] [main/DEBUG] [mixin/]: Preparing polymorph_integrations.mixins.json (38)
+[31Mar2022 17:03:46.991] [main/DEBUG] [mixin/]: Preparing supplementaries.mixins.json (44)
+[31Mar2022 17:03:47.049] [main/DEBUG] [mixin/]: Preparing valhelsia_core.mixins.json (8)
+[31Mar2022 17:03:47.061] [main/DEBUG] [mixin/]: Preparing valhelsia_structures.mixins.json (10)
+[31Mar2022 17:03:47.066] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/BucketItem
+[31Mar2022 17:03:47.085] [main/DEBUG] [mixin/]: Preparing waystones.mixins.json (2)
+[31Mar2022 17:03:47.088] [main/DEBUG] [mixin/]: Preparing create.mixins.json (11)
+[31Mar2022 17:03:47.123] [main/DEBUG] [mixin/]: Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
+[31Mar2022 17:03:47.125] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
+[31Mar2022 17:03:47.126] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
+[31Mar2022 17:03:47.128] [main/DEBUG] [mixin/]: Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
+[31Mar2022 17:03:47.130] [main/DEBUG] [mixin/]: Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
+[31Mar2022 17:03:47.131] [main/DEBUG] [mixin/]: Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
+[31Mar2022 17:03:47.175] [main/WARN] [mixin/]: Error loading class: net/minecraftforge/common/Tags$IOptionalNamedTag (java.lang.ClassNotFoundException: net.minecraftforge.common.Tags$IOptionalNamedTag)
+[31Mar2022 17:03:47.181] [main/WARN] [mixin/]: Error loading class: net/minecraftforge/common/Tags$IOptionalNamedTag (java.lang.ClassNotFoundException: net.minecraftforge.common.Tags$IOptionalNamedTag)
+[31Mar2022 17:03:47.181] [main/WARN] [mixin/]: Error loading class: net/minecraftforge/common/Tags$IOptionalNamedTag (java.lang.ClassNotFoundException: net.minecraftforge.common.Tags$IOptionalNamedTag)
+[31Mar2022 17:03:47.185] [main/WARN] [mixin/]: Error loading class: net/minecraftforge/common/Tags$IOptionalNamedTag (java.lang.ClassNotFoundException: net.minecraftforge.common.Tags$IOptionalNamedTag)
+[31Mar2022 17:03:47.196] [main/DEBUG] [mixin/]: Prepared 212 mixins in 0.847 sec (4.0ms avg) (0ms load, 0ms transform, 0ms plugin)
+[31Mar2022 17:03:47.210] [main/DEBUG] [io.netty.util.internal.logging.InternalLoggerFactory/]: Using SLF4J as the default logging framework
+[31Mar2022 17:03:47.212] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.level: simple
+[31Mar2022 17:03:47.213] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.targetRecords: 4
+[31Mar2022 17:03:47.240] [main/DEBUG] [mixin/]: Mixing ResourceLocationAccess from ferritecore.mrl.mixin.json into net.minecraft.resources.ResourceLocation
+[31Mar2022 17:03:47.352] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@7e7f3cfd
+[31Mar2022 17:03:47.574] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@7e7f3cfd
+[31Mar2022 17:03:47.936] [pool-3-thread-1/DEBUG] [mixin/]: Mixing client.BlockMixin from cfm.mixins.json into net.minecraft.world.level.block.Block
+[31Mar2022 17:03:47.938] [pool-3-thread-1/DEBUG] [mixin/]: cfm.mixins.json:client.BlockMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_8 supports class version 52)
+[31Mar2022 17:03:48.008] [pool-3-thread-1/DEBUG] [mixin/]: Mixing BlockStateBaseMixin from ferritecore.blockstatecache.mixin.json into net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase
+[31Mar2022 17:03:48.010] [pool-3-thread-1/DEBUG] [mixin/]: Mixing coremods.AbstractBlockStateMixin from immersiveengineering.mixins.json into net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase
+[31Mar2022 17:03:48.011] [pool-3-thread-1/DEBUG] [mixin/]: Mixing BlockStateBaseMixin from valhelsia_structures.mixins.json into net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase
+[31Mar2022 17:03:48.028] [pool-3-thread-1/DEBUG] [mixin/]: Mixing FastMapStateHolderMixin from ferritecore.fastmap.mixin.json into net.minecraft.world.level.block.state.StateHolder
+[31Mar2022 17:03:48.057] [pool-3-thread-1/DEBUG] [mixin/]: Mixing EntityContraptionInteractionMixin from create.mixins.json into net.minecraft.world.entity.Entity
+[31Mar2022 17:03:48.059] [pool-3-thread-1/DEBUG] [mixin/]: create.mixins.json:EntityContraptionInteractionMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[31Mar2022 17:03:48.060] [pool-3-thread-1/DEBUG] [mixin/]: Renaming synthetic method lambda$createRunningParticlesMixin$3(Lnet/minecraft/core/BlockPos;Lcom/simibubi/create/content/contraptions/components/structureMovement/Contraption;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;)V to md4ded62$lambda$createRunningParticlesMixin$3$0 in create.mixins.json:EntityContraptionInteractionMixin
+[31Mar2022 17:03:48.060] [pool-3-thread-1/DEBUG] [mixin/]: Renaming synthetic method lambda$movementMixin$2(Ljava/util/concurrent/atomic/AtomicBoolean;Lcom/simibubi/create/content/contraptions/components/structureMovement/Contraption;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;)V to md4ded62$lambda$movementMixin$2$1 in create.mixins.json:EntityContraptionInteractionMixin
+[31Mar2022 17:03:48.061] [pool-3-thread-1/DEBUG] [mixin/]: Renaming synthetic method lambda$forCollision$1(Lnet/minecraft/world/phys/Vec3;Lorg/apache/logging/log4j/util/TriConsumer;Lcom/simibubi/create/content/contraptions/components/structureMovement/AbstractContraptionEntity;)V to md4ded62$lambda$forCollision$1$2 in create.mixins.json:EntityContraptionInteractionMixin
+[31Mar2022 17:03:48.061] [pool-3-thread-1/DEBUG] [mixin/]: Renaming synthetic method lambda$getIntersectingContraptions$0(Lcom/simibubi/create/content/contraptions/components/structureMovement/AbstractContraptionEntity;)Z to md4ded62$lambda$getIntersectingContraptions$0$3 in create.mixins.json:EntityContraptionInteractionMixin
+[31Mar2022 17:03:48.165] [pool-3-thread-1/DEBUG] [mixin/]: Mixing platform.common.LivingEntityEquipmentSlotMixin from chiselsandbits.mixins.json into net.minecraft.world.entity.LivingEntity
+[31Mar2022 17:03:48.169] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/ItemStack
+[31Mar2022 17:03:48.182] [pool-3-thread-1/DEBUG] [mixin/]: Mixing LivingEntityAccessor from clienttweaks.mixins.json into net.minecraft.world.entity.LivingEntity
+[31Mar2022 17:03:48.183] [pool-3-thread-1/DEBUG] [mixin/]: Renaming @Accessor method getDataEffectAmbienceId()Lnet/minecraft/network/syncher/EntityDataAccessor; to getDataEffectAmbienceId_$md$4ded62$0 in clienttweaks.mixins.json:LivingEntityAccessor
+[31Mar2022 17:03:48.183] [pool-3-thread-1/DEBUG] [mixin/]: Renaming @Accessor method getDataEffectColorId()Lnet/minecraft/network/syncher/EntityDataAccessor; to getDataEffectColorId_$md$4ded62$1 in clienttweaks.mixins.json:LivingEntityAccessor
+[31Mar2022 17:03:48.183] [pool-3-thread-1/DEBUG] [mixin/]: Mixing LivingEntityLadderMixin from supplementaries.mixins.json into net.minecraft.world.entity.LivingEntity
+[31Mar2022 17:03:48.183] [pool-3-thread-1/DEBUG] [mixin/]: supplementaries.mixins.json:LivingEntityLadderMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[31Mar2022 17:03:48.195] [pool-3-thread-1/DEBUG] [mixin/]: Mixing CustomItemUseEffectsMixin from create.mixins.json into net.minecraft.world.entity.LivingEntity
+[31Mar2022 17:03:48.196] [pool-3-thread-1/DEBUG] [mixin/]: create.mixins.json:CustomItemUseEffectsMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[31Mar2022 17:03:48.200] [pool-3-thread-1/DEBUG] [mixin/]: Mixing accessor.LivingEntityAccessor from create.mixins.json into net.minecraft.world.entity.LivingEntity
+[31Mar2022 17:03:48.200] [pool-3-thread-1/DEBUG] [mixin/]: create.mixins.json:accessor.LivingEntityAccessor: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[31Mar2022 17:03:48.252] [pool-3-thread-1/DEBUG] [mixin/]: Mixing coremods.ServerWorldMixin from immersiveengineering.mixins.json into net.minecraft.server.level.ServerLevel
+[31Mar2022 17:03:48.268] [pool-3-thread-1/DEBUG] [mixin/]: Mixing ItemEntityMixin from decorative_blocks.mixins.json into net.minecraft.world.entity.item.ItemEntity
+[31Mar2022 17:03:48.279] [pool-3-thread-1/DEBUG] [mixin/]: Mixing accessors.ItemEntityAccess from immersiveengineering.mixins.json into net.minecraft.world.entity.item.ItemEntity
+[31Mar2022 17:03:48.288] [pool-3-thread-1/DEBUG] [mixin/]: Mixing client.PlayerScopingMixin from chiselsandbits.mixins.json into net.minecraft.world.entity.player.Player
+[31Mar2022 17:03:48.335] [pool-3-thread-1/DEBUG] [mixin/]: Mixing ItemMixin from supplementaries.mixins.json into net.minecraft.world.item.Item
+[31Mar2022 17:03:48.335] [pool-3-thread-1/DEBUG] [mixin/]: supplementaries.mixins.json:ItemMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[31Mar2022 17:03:48.366] [pool-3-thread-1/DEBUG] [mixin/]: Mixing EntityTypeMixin from flywheel.mixins.json into net.minecraft.world.entity.EntityType
+[31Mar2022 17:03:48.375] [pool-3-thread-1/DEBUG] [mixin/]: Mixing BlockEntityTypeMixin from flywheel.mixins.json into net.minecraft.world.level.block.entity.BlockEntityType
+[31Mar2022 17:03:48.376] [pool-3-thread-1/DEBUG] [mixin/]: Mixing accessors.BETypeAccess from immersiveengineering.mixins.json into net.minecraft.world.level.block.entity.BlockEntityType
+[31Mar2022 17:03:48.483] [pool-3-thread-1/DEBUG] [mixin/]: Mixing accessors.DimensionTypeAccessor from immersiveengineering.mixins.json into net.minecraft.world.level.dimension.DimensionType
+[31Mar2022 17:03:48.483] [pool-3-thread-1/DEBUG] [mixin/]: Renaming @Accessor method getOverworldType()Lnet/minecraft/world/level/dimension/DimensionType; to getOverworldType_$md$4ded62$0 in immersiveengineering.mixins.json:accessors.DimensionTypeAccessor
+[31Mar2022 17:03:48.490] [pool-3-thread-1/DEBUG] [mixin/]: Mixing ChunkGeneratorAccessor from bettermineshafts.mixins.json into net.minecraft.world.level.chunk.ChunkGenerator
+[31Mar2022 17:03:48.490] [pool-3-thread-1/DEBUG] [mixin/]: Mixing accessors.ChunkGeneratorAccessor from supplementaries.mixins.json into net.minecraft.world.level.chunk.ChunkGenerator
+[31Mar2022 17:03:48.491] [pool-3-thread-1/DEBUG] [mixin/]: supplementaries.mixins.json:accessors.ChunkGeneratorAccessor: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[31Mar2022 17:03:48.492] [pool-3-thread-1/FATAL] [mixin/]: Mixin apply failed bettermineshafts.mixins.json:ChunkGeneratorAccessor -> net.minecraft.world.level.chunk.ChunkGenerator: org.spongepowered.asm.mixin.gen.throwables.InvalidAccessorException No candidates were found matching f_62139_:Lnet/minecraft/world/level/levelgen/StructureSettings; in net/minecraft/world/level/chunk/ChunkGenerator for bettermineshafts.mixins.json:ChunkGeneratorAccessor->@Accessor[FIELD_SETTER]::setSettings(Lnet/minecraft/world/level/levelgen/StructureSettings;)V [INJECT Applicator Phase -> bettermineshafts.mixins.json:ChunkGeneratorAccessor -> Apply Accessors ->  -> Locate -> bettermineshafts.mixins.json:ChunkGeneratorAccessor->@Accessor[FIELD_SETTER]::setSettings(Lnet/minecraft/world/level/levelgen/StructureSettings;)V]
+org.spongepowered.asm.mixin.gen.throwables.InvalidAccessorException: No candidates were found matching f_62139_:Lnet/minecraft/world/level/levelgen/StructureSettings; in net/minecraft/world/level/chunk/ChunkGenerator for bettermineshafts.mixins.json:ChunkGeneratorAccessor->@Accessor[FIELD_SETTER]::setSettings(Lnet/minecraft/world/level/levelgen/StructureSettings;)V [INJECT Applicator Phase -> bettermineshafts.mixins.json:ChunkGeneratorAccessor -> Apply Accessors ->  -> Locate -> bettermineshafts.mixins.json:ChunkGeneratorAccessor->@Accessor[FIELD_SETTER]::setSettings(Lnet/minecraft/world/level/levelgen/StructureSettings;)V]
+	at org.spongepowered.asm.mixin.gen.AccessorInfo.findTarget(AccessorInfo.java:518) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.gen.AccessorInfo.findTargetField(AccessorInfo.java:501) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.gen.AccessorInfo.locate(AccessorInfo.java:475) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinTargetContext.generateAccessors(MixinTargetContext.java:1389) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyAccessors(MixinApplicatorStandard.java:1060) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:398) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:325) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:383) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:365) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156) ~[modlauncher-9.1.3.jar:9.1.3+9.1.3+main.9b69c82a]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-9.1.3.jar:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-9.1.3.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-9.1.3.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:110) ~[securejarhandler-1.0.3.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$16(ModuleClassLoader.java:216) ~[securejarhandler-1.0.3.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:226) ~[securejarhandler-1.0.3.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:216) ~[securejarhandler-1.0.3.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:132) ~[securejarhandler-1.0.3.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
+	at net.minecraft.world.level.levelgen.VerticalAnchor$Absolute.<clinit>(VerticalAnchor.java:59) ~[client-1.18.2-20220228.144236-srg.jar%23109!/:?]
+	at net.minecraft.world.level.levelgen.VerticalAnchor.<clinit>(VerticalAnchor.java:11) ~[client-1.18.2-20220228.144236-srg.jar%23109!/:?]
+	at net.minecraft.world.level.levelgen.heightproviders.HeightProvider.<clinit>(HeightProvider.java:12) ~[client-1.18.2-20220228.144236-srg.jar%23109!/:?]
+	at net.minecraft.world.level.levelgen.carver.CarverConfiguration.m_190634_(CarverConfiguration.java:13) ~[client-1.18.2-20220228.144236-srg.jar%23109!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder.mapCodec(RecordCodecBuilder.java:76) ~[datafixerupper-4.1.27.jar%2333!/:?]
+	at net.minecraft.world.level.levelgen.carver.CarverConfiguration.<clinit>(CarverConfiguration.java:12) ~[client-1.18.2-20220228.144236-srg.jar%23109!/:?]
+	at net.minecraft.world.level.levelgen.carver.WorldCarver.<clinit>(WorldCarver.java:30) ~[client-1.18.2-20220228.144236-srg.jar%23109!/:?]
+	at net.minecraft.data.worldgen.Carvers.<clinit>(Carvers.java:19) ~[client-1.18.2-20220228.144236-srg.jar%23109!/:?]
+	at net.minecraft.data.BuiltinRegistries.m_206400_(BuiltinRegistries.java:45) ~[client-1.18.2-20220228.144236-srg.jar%23109!/:?]
+	at net.minecraft.data.BuiltinRegistries.m_206392_(BuiltinRegistries.java:101) ~[client-1.18.2-20220228.144236-srg.jar%23109!/:?]
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:721) ~[?:?]
+	at net.minecraft.data.BuiltinRegistries.<clinit>(BuiltinRegistries.java:100) ~[client-1.18.2-20220228.144236-srg.jar%23109!/:?]
+	at net.minecraft.core.Registry.<clinit>(Registry.java:633) ~[client-1.18.2-20220228.144236-srg.jar%23109!/:?]
+	at net.minecraft.server.Bootstrap.m_135870_(Bootstrap.java:44) ~[client-1.18.2-20220228.144236-srg.jar%23109!/:?]
+	at net.minecraft.client.main.Main.lambda$main$0(Main.java:138) ~[client-1.18.2-20220228.144236-srg.jar%23109!/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
